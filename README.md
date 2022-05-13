@@ -9,7 +9,7 @@ El siguiente documento tiene el propósito de explicar el funcionamiento del bac
 
 El backend fue desarrollado en nodejs.
 
-![App Screenshot](https://github.com/felipearavena98/imagenes/blob/main/img-proyecto-bsale/parte1BACK.png?raw=true)
+![App Screenshot](https://github.com/felipearavena98/api-server/blob/main/imagenes-example/estructura%20Rest-api.jpg?raw=true)
 
 - controllers: El contenido que se encuentra aquí, contiene las funciones de nuestra api.
 - database: La carpeta de database contiene la configuración de conexión a la Base de datos.
@@ -31,7 +31,7 @@ El backend fue desarrollado en nodejs.
 - Los unicos archivos que se deben configurar son el .env y server.js.
 - Las siguientes instrucciones son para hacer funcionar la api, solo de manera local.
 
-
+![App Screenshot](https://github.com/felipearavena98/api-server/blob/main/imagenes-example/env%20config.jpg?raw=true)
 
 
 ## Referencia API
@@ -282,6 +282,23 @@ En este filtro de búsqueda podemos filtrar por title, _tags, author. Cualquiera
             "__v": 0
         },
 ```
+
+## Petición Postman Example
+- Por parametros les puedes agregar /desde= y el valor de la búsqueda de donde quieres empezarde esta forma accedes a las paginas con 5 elementos en la búsqueda
+
+#### Búsqueda Get 5 elementos por pag
+![App Screenshot](https://github.com/felipearavena98/api-server/blob/main/imagenes-example/Peticion%20get%20news.jpg?raw=true)
+
+### Búsqueda de elemento por id
+![App Screenshot](https://github.com/felipearavena98/api-server/blob/main/imagenes-example/Peticion%20get%20id.jpg?raw=true)
+
+### Eliminar Elemento por id
+![App Screenshot](https://github.com/felipearavena98/api-server/blob/main/imagenes-example/Peticion%20delete%20id.jpg?raw=true)
+
+### Búsqueda por terminos
+![App Screenshot](https://github.com/felipearavena98/api-server/blob/main/imagenes-example/peticion%20busqueda.jpg?raw=true)
+
+
 
 
 ### Configuración del servidor
